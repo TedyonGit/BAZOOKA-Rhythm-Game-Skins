@@ -6,7 +6,7 @@ A python script that fetches the content from the unity game and can be customiz
 - ```pip install pillow unitypy tkinter colorama```
 
 # Preview
-[![Youtube Video]()](https://www.youtube.com/watch?v=8ozvxOS2qvE)
+[![Preview](https://img.youtube.com/vi/8ozvxOS2qvE/0.jpg)](https://www.youtube.com/watch?v=8ozvxOS2qvE)
 
 # Use
 - Run the script once with ```py ChangeFiles.py```, which is going to create the ```Replacements``` folder.
