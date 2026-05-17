@@ -34,18 +34,15 @@ UnityData = UnityPy.load(DataPath)
 
 for Object in UnityData.objects:
     try:
-        if Object.type.name == "Sprite":
+        if Object.type.name == "Texture2D":
             if Patched == MaxPatched:
                 break
-            Sprite = Object.read()
-            
-            if Sprite.m_Name in Replacements:
-                Texture = Sprite.m_RD.texture.read()
-                rect = Sprite.m_RD.textureRect
+            Texture = Object.read()
 
-                NewImage = Image.open(Replacements[Sprite.m_Name]).convert("RGBA")
-                NewImage = NewImage.resize((int(rect.width), int(rect.height)), Image.LANCZOS)
-        
+            if Texture.m_Name in Replacements:
+                NewImage = Image.open(Replacements[Texture.m_Name]).convert("RGBA")
+                NewImage = NewImage.resize((int(Texture.m_Width), int(Texture.m_Height)), Image.LANCZOS)
+
                 Texture.image = NewImage
                 Texture.save()
                 Patched += 1
