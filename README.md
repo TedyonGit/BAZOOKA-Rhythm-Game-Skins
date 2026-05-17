@@ -17,5 +17,6 @@ A python script that fetches the content from the unity game for you to customiz
 
 # List (I'll update this one with a lot of textures so you guys can get creative with)
 - ```Arrow``` = Arrows
+- ```MouseIcon``` = Cursor
 
 Made with ❤ by Tedy
