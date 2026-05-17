@@ -4,8 +4,9 @@ A python script that fetches the content from the unity game for you to customiz
 # Installation
 - Python >= 3.11
 - ```pip install pillow unitypy colorama```
+- [PrettyConsole](https://github.com/TedyonGit/PrettyConsole)
 
-# Preview
+# Preview (Note: I didn't expect to find a circle texture in the game LOL)
 [![Preview](https://img.youtube.com/vi/8ozvxOS2qvE/0.jpg)](https://www.youtube.com/watch?v=8ozvxOS2qvE)
 
 # Use
