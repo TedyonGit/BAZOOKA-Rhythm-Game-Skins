@@ -1,5 +1,5 @@
 # BAZOOKA-Rhythm-Game-Skins
-A python script that fetches the content from the unity game and can be customized.
+A python script that fetches the content from the unity game for you to customize it.
 
 # Installation
 - Python >= 3.11
