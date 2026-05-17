@@ -3,7 +3,7 @@ A python script that fetches the content from the unity game and can be customiz
 
 # Installation
 - Python >= 3.11
-- ```pip install pillow unitypy tkinter colorama```
+- ```pip install pillow unitypy colorama```
 
 # Preview
 [![Preview](https://img.youtube.com/vi/8ozvxOS2qvE/0.jpg)](https://www.youtube.com/watch?v=8ozvxOS2qvE)
